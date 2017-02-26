@@ -27,12 +27,16 @@ input {
 Classes & ID's
 ************************/
 
+.credit {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .nbhoodie_logo {
   display: block;
-  margin-left: 90px;
 }
 
 .MM_Logo {
   display: block;
-  margin-left: 90px;
 }
