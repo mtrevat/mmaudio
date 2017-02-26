@@ -1,0 +1,38 @@
+/************************
+Elements
+************************/
+
+body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.credit span {
+  display: block;
+  font-family: 'Lato', sans-serif;
+  color: #A5A6A7;
+}
+
+input,
+button {
+  display: inline-block;
+}
+
+input {
+  border: 2px solid #C7C9C9;
+}
+
+/************************
+Classes & ID's
+************************/
+
+.nbhoodie_logo {
+  display: block;
+  margin-left: 90px;
+}
+
+.MM_Logo {
+  display: block;
+  margin-left: 90px;
+}
