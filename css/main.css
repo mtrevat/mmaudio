@@ -2,15 +2,19 @@
 Elements
 ************************/
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   display: flex;
   justify-content: center;
   text-align: center;
+  font-family: 'Lato', sans-serif;
 }
 
 .credit span {
   display: block;
-  font-family: 'Lato', sans-serif;
   color: #A5A6A7;
 }
 
@@ -21,22 +25,62 @@ button {
 
 input {
   border: 2px solid #C7C9C9;
+  width: 100%;
+  padding: 32px;
+  font-size: 1em;
+  color: #CED0D0;
+  font-weight: lighter;
+  border-radius: 5px;
+}
+
+.input span {
+  display: block;
 }
 
 /************************
 Classes & ID's
 ************************/
 
-.credit {
+.wrapper {
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-.nbhoodie_logo {
-  display: block;
+.credit {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+  margin-top: 50px;
+  font-weight: lighter;
+  font-size: .9em;
+  line-height: 1.3em;
 }
 
-.MM_Logo {
+.nbhoodie_logo {
   display: block;
+  height: 60px;
+  margin: 10px 0;
+}
+
+svg.MM_Logo {
+  display: block;
+  height: 78px;
+}
+
+
+.border {
+  margin: 100px 0;
+  width: 13%;
+  border-top: 3px solid #24B3A9;
+  align-self: center;
+}
+
+.input {
+  align-self: center;
+  font-weight: 100;
+  width: 80%;
 }
