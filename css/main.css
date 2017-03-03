@@ -1,3 +1,9 @@
+/*
+Issues:
+
+-submit button on iPhone 6 Plus
+
+*/
 
 /************************
 Elements
@@ -50,7 +56,6 @@ input[type="submit"] {
 input[type="text"]:focus {
   outline: none;
   border-color: #24B3A9;
-  color: #24B3A9;
 }
 
 input[type="text"]:focus + input[type="submit"] {
