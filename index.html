@@ -4,7 +4,7 @@
     <title>Voice of Interconnect</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css" type="text/css">
   </head>
   <body>
@@ -46,26 +46,31 @@
         <polygon id="Shape" points="541 1.3 583.7 1.3 583.7 18.4 560 18.4 560 38.7 584 38.7 584 55.8 560 55.8 560 79.5 585.7 79.5 585.7 96.6 541 96.6"></polygon>
         <polygon id="Shape" points="591.8 1.3 610.8 1.3 610.8 79.4 629.6 79.4 629.6 96.5 591.8 96.5"></polygon>
       </symbol>
-    </svg>
     <div class="wrapper">
       <div class="credit">
         <span>A collaboration between</span>
         <svg class="nbhoodie_logo">
           <use xlink:href="#nbhoodie_logo"></use>
         </svg>
-        <span>&dash; and &dash;</span>
+        <span>&ndash; and &ndash;</span>
         <svg class="MM_Logo">
           <use xlink:href="#MM_Logo"></use>
         </svg>
-        <span>with special thanks to <br> Bradley Holt <br> & <br> Teri Chadbourne</span>
+        <div class="special_thanks">
+          <span>with special thanks to Bradley Holt & Teri Chadbourne</span>
+        </div>
       </div>
       <div class="border">
       </div>
       <div class="input">
-        <h3>Get the case study by e-mail.</h3>
-        <input type="text" placeholder="your@email.com">
-        <span>(We promise this is the only use of your e-mail!)</span>
+        <label for="email">Get the case study by e-mail.</label>
+        <form class="email">
+          <input type="text" name="email"  id="input" placeholder="your@email.com"><input type="submit" value="&rarr;">
+        </form>
       </div>
+      <footer>
+        <span>(We promise this is the only use of your e-mail!)</span>
+      </footer>
     </div>
   </body>
 </html>

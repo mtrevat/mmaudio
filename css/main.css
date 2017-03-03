@@ -1,3 +1,4 @@
+
 /************************
 Elements
 ************************/
@@ -23,18 +24,54 @@ button {
   display: inline-block;
 }
 
-input {
+
+input[type="text"] {
   border: 2px solid #C7C9C9;
   width: 100%;
-  padding: 32px;
-  font-size: 1em;
-  color: #CED0D0;
-  font-weight: lighter;
+  padding: 25px 50px 25px 25px;
+  vertical-align: middle;
+  margin: 25px 0;
+  font-size: 1.2em;
+  font-weight: 300;
   border-radius: 5px;
 }
 
-.input span {
-  display: block;
+input[type="submit"] {
+  margin-left: -50px;
+  width: 48px;
+  font-size: 2em;
+  vertical-align: middle;t
+  padding-top: 0px;
+  background: #fff;
+  color: #C7C9C9;
+  border: none;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #24B3A9;
+  color: #24B3A9;
+}
+
+input[type="text"]:focus + input[type="submit"] {
+  border-color: #24B3A9;
+  color: #24B3A9;
+}
+
+.input label {
+  font-weight: 400;
+  font-size: 1.45em;
+}
+
+footer {
+  width: 100%;
+}
+
+footer span {
+  width: 55%;
+  display: inline-block;
+  font-size: 1.3em;
+  margin-bottom: 20px;
 }
 
 /************************
@@ -68,9 +105,14 @@ Classes & ID's
 
 svg.MM_Logo {
   display: block;
+  max-width: 300px;
   height: 78px;
 }
 
+.special_thanks {
+  width: 60%;
+  align-self: center;
+}
 
 .border {
   margin: 100px 0;
@@ -82,5 +124,15 @@ svg.MM_Logo {
 .input {
   align-self: center;
   font-weight: 100;
-  width: 80%;
+  width: 85%;
+}
+
+/************************
+Breakpoints
+************************/
+
+@media screen and (min-width: 649px) {
+  svg.MM_Logo {
+    margin: auto;
+  }
 }
