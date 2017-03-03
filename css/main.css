@@ -5,6 +5,11 @@ Issues:
 
 */
 
+input, textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+
 /************************
 Elements
 ************************/
@@ -51,8 +56,6 @@ input[type="submit"] {
   background: #fff;
   color: #C7C9C9;
   border: none;
-  -webkit-appearance: none;
-  -webkit-border-radius: 0;
 }
 
 input[type="text"]:focus {
