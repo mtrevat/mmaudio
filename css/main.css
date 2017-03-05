@@ -5,8 +5,15 @@ Issues:
 
 */
 
+
+/************************
+Resets
+************************/
+
 input, textarea {
   -webkit-appearance: none;
+  -moz-appearance: none;
+  -moz-border-radius: 0;
   -webkit-border-radius: 0;
 }
 
@@ -48,7 +55,7 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-  margin-left: -50px;
+  margin-left: -55px;
   width: 48px;
   font-size: 2em;
   vertical-align: middle;
