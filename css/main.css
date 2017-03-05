@@ -38,7 +38,7 @@ body {
 }
 
 form {
-  position: relative;
+  -webkit-position: relative;
 }
 
 input,
@@ -48,9 +48,9 @@ button {
 
 
 input[type="text"] {
-  position: absolute;
-  top: 0;
-  left: 0;
+  -webkit-position: absolute;
+  -webkit-top: 0;
+  -webkit-left: 0;
   border: 2px solid #C7C9C9;
   width: 100%;
   padding: 25px 50px 25px 25px;
@@ -62,10 +62,10 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-  position: absolute;
-  top: 45px;
-  left: 99%;
-  z-index: 1;
+  -webkit-position: absolute;
+  -webkit-top: 45px;
+  -webkit-left: 99%;
+  -webkit-z-index: 1;
   margin-left: -50px;
   width: 48px;
   font-size: 2em;
