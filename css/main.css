@@ -37,10 +37,6 @@ body {
   color: #A5A6A7;
 }
 
-form {
-  -webkit-position: relative;
-}
-
 input,
 button {
   display: inline-block;
@@ -48,9 +44,6 @@ button {
 
 
 input[type="text"] {
-  -webkit-position: absolute;
-  -webkit-top: 0;
-  -webkit-left: 0;
   border: 2px solid #C7C9C9;
   width: 100%;
   padding: 25px 50px 25px 25px;
@@ -62,15 +55,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-  -webkit-position: absolute;
-  -webkit-top: 45px;
-  -webkit-left: 99%;
-  -webkit-z-index: 1;
   margin-left: -50px;
   width: 48px;
   font-size: 2em;
   vertical-align: middle;
-  padding: 0 0 3px;
+  padding: 0;
   background: #fff;
   color: #C7C9C9;
   border: none;
